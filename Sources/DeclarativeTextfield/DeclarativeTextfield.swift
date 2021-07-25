@@ -24,7 +24,7 @@ open class Textfield: UITextField {
     private var dismissWithReturnKey: Bool = false
     private var textInset: CGPoint = .zero
     
-    override init(frame: CGRect) {
+    override public init(frame: CGRect) {
         super.init(frame: .zero)
         setUpUI()
     }
