@@ -29,7 +29,7 @@ open class Textfield: UITextField {
         setUpUI()
     }
     
-    required init?(coder: NSCoder) {
+    required public init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
 }
