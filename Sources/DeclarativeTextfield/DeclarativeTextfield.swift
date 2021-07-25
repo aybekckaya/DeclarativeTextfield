@@ -21,8 +21,8 @@ open class Textfield: UITextField {
     private var textFieldEditingChangedCallback:  ((Textfield, String) -> ())?
     private var textFieldShouldChangeCharactersCallback: ((Textfield, NSRange, String) -> (Bool))?
     
-    private var dismissWithReturnKey: Bool = false
-    private var textInset: CGPoint = .zero
+    private(set) var dismissWithReturnKey: Bool = false
+    private(set) var textInset: CGPoint = .zero
     
     override public init(frame: CGRect) {
         super.init(frame: .zero)
