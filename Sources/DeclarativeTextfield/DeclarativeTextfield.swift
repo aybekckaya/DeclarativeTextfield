@@ -10,7 +10,7 @@ import Debouncer
 import UIKit
 
 // MARK: - Textfield { Skeleton }
-public class Textfield: UITextField {
+open class Textfield: UITextField {
 //    private var textFieldDidBeginEditingDebouncer: ((Textfield) -> ())?
 //    private var textFieldDidEndEditingDebouncer: ((Textfield) -> ())?
     private var textFieldEditingChangedDebouncer:  Debouncer?
